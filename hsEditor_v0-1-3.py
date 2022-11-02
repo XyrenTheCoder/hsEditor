@@ -1,3 +1,5 @@
+# hsEditor by archisha69
+
 import os, time
 
 def clear(): os.system('cls') if os.name == 'nt' else os.system('clear')
@@ -51,4 +53,4 @@ while True:
         print('Script will exit soon...')
         time.sleep(3)
         exit()
-    else: print('Invalid action. Please try again and enter a correct action. (1/2/3)')
+    else: print('Invalid action. Please try again and enter a correct action. (1/2/3/4)')
